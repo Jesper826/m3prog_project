@@ -36,5 +36,3 @@ echo "<p>Conclusie: We hebben een aantal geweldige games beoordeeld!</p>";
 
 </body>
 </html>
-
-
