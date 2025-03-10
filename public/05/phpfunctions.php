@@ -13,6 +13,30 @@ echo "<br>";
 $langWoord ='kindercarnavalsoptochtvoorbereidingswerkzaamheden';
 $langWoord = strlen($langWoord);
 print ($langWoord);
+echo "<br>";
+
 
 //vraag 4: Ik heb nu 2 keer strlen gebruikt.
+
+$tweeMachtTwee = pow(2,2);
+print (pow(2,2));
+echo "<br>";
+
+$tweeMachtTien = pow(2,10);
+print (pow(2,10));
+echo "<br>";
+
+//vraag 5:hoe geven we het resultaat door? We geven het resultaat door met de functie print.
+
+$naam = "Wario"; 
+$naamGroot = strtoupper($naam); 
+
+print($naamGroot); 
+echo "<br>";
+
+
+$naamKlein = strtolower($naam);
+print($naamKlein);
+echo "<br>";
+
 ?>
