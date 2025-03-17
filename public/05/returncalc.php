@@ -22,4 +22,6 @@ echo add(100, 100) . "<br>";
 echo add(4, 9) . "<br>";
 echo add(33, 33) . "<br>";
 
+//ik begreep de opdracht niet helemaal en ik heb er mijn eigen draai aan gegeven
+
 ?>
