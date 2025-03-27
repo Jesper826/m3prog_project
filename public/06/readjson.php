@@ -32,7 +32,7 @@ $json = '{
   echo $dataObject->studenten[0]->name;  
 
   echo "<br>";
-  echo $dataObject->studenten[0]->gemiddeldCijfer;
+  echo $dataObject->studenten[1]->gemiddeldCijfer;
 
 
 ?>
