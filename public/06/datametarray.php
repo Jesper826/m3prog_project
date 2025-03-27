@@ -11,7 +11,7 @@ $toad = [ "name" => "toad", "gemiddeldCijfer" => 8.5];
 $gumba = [ "name" => "gumba", "gemiddeldCijfer" => 100];
 
 $dataObject = [
-    "studenten" => [$mario, $wario]
+    "studenten" => [$mario, $wario, $toad, $gumba],
 ];
 
 $jsonString = json_encode($dataObject);
