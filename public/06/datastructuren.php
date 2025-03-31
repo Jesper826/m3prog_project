@@ -10,7 +10,11 @@ $films = [
             'jaar' => 1994,
             'genre' => 'Drama',       
         ]            
-        
+        'actors' => [
+            'Tim Robbins',
+            'Morgan Freeman',
+            'Bob Gunton',
+        ]
     ],
 ];
 
