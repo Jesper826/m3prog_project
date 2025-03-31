@@ -13,7 +13,6 @@ $MarioWonderTrophies = $trophiesPerGame["Mario wonder"];
 echo $MarioWonderTrophies. "<br>";
 $raymanTrophies = $trophiesPerGame["rayman origins"];
 echo $raymanTrophies. "<br>";
-
 $tetris = $trophiesPerGame["tetris"];
 echo $tetris . "<br>";
 ?>
