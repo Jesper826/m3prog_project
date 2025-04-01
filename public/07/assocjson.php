@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: application/json");
 
 $verbruik = [
     'Koelkast' => 150,
@@ -41,10 +42,5 @@ $jsonArray = [
     "Weer" => $weer,
     "Verbruik" => $verbruik
 ];
-
-
 print_r($jsonArray);
-
-
-
 ?>
