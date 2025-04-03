@@ -39,3 +39,26 @@ foreach ($lunchitems as $item) {
     echo $item->prijs . "<br>";
     echo $item->beschijving . "<br>";
 }
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lunch items</h1>
+
+    <p>
+        <?php
+        foreach ($lunchitems as $item) {
+            echo $item->naam . "<br>";
+            echo $item->prijs . "<br>";
+            echo $item->beschijving . "<br>";
+        }
+        ?>
+    </p>    
+</body>
+</html>
