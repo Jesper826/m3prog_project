@@ -49,12 +49,15 @@ foreach ($lunchitems as $item) {
     <title>Document</title>
 </head>
 <body>
-    <h1>Lunch items</h1>
+    <h1><?
+        foreach ($lunchitems as $item) {
+        echo $item->naam . "<br>";}
+        ?>
+    </h1>
 
     <p>
         <?php
         foreach ($lunchitems as $item) {
-            echo $item->naam . "<br>";
             echo $item->prijs . "<br>";
             echo $item->beschijving . "<br>";
         }
